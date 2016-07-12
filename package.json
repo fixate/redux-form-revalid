@@ -1,0 +1,38 @@
+{
+  "name": "redux-form-revalid",
+  "version": "0.0.1",
+  "description": "Smooth over redux-form validations using revalid",
+  "main": "index.js",
+  "scripts": {
+    "compile": "$(npm bin)/babel --presets es2015,stage-0 -d . src/",
+    "prepublish": "npm run compile",
+    "watch": "when-changed -r -1 -s ./src npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fixate/redux-form-revalid.git"
+  },
+  "keywords": [
+    "redux-form",
+    "revalid",
+    "validations",
+    "redux",
+    "react"
+  ],
+  "author": "stan@fixate.it",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fixate/redux-form-revalid/issues"
+  },
+  "homepage": "https://github.com/fixate/redux-form-revalid#readme",
+  "dependencies": {
+    "redux-form": "^5.3.1",
+    "revalid": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
