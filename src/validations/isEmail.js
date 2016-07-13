@@ -69,6 +69,6 @@ export default function isEmail(options = defaultOptions) {
       }
     }
 
-    return true;
+    return false;
   };
 }

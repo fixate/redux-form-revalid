@@ -1,6 +1,6 @@
 {
   "name": "redux-form-revalid",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Smooth over redux-form validations using revalid",
   "main": "index.js",
   "scripts": {
