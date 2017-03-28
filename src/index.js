@@ -5,7 +5,7 @@ import {
 
 export function combineValidators(validators) {
   const validator = combine(validators);
-  return (values) => validator(values).validationErrors;
+  return (values) => validator(values || {}).validationErrors;
 };
 
 export {
