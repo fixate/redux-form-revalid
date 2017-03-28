@@ -1,6 +1,6 @@
 {
   "name": "redux-form-revalid",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Smooth over redux-form validations using revalid",
   "main": "index.js",
   "scripts": {
@@ -26,9 +26,9 @@
     "url": "https://github.com/fixate/redux-form-revalid/issues"
   },
   "homepage": "https://github.com/fixate/redux-form-revalid#readme",
-  "dependencies": {
-    "redux-form": "^5.3.1",
-    "revalid": "^1.0.2"
+  "peerDependencies": {
+    "redux-form": ">=5, <=6",
+    "revalid": ">=1"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
